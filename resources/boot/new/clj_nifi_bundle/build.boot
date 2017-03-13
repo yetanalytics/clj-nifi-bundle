@@ -3,9 +3,8 @@
 
 (set-env! :resource-paths #{"resources" "src"}
           :dependencies   '[[org.clojure/clojure "1.8.0"]
-                            [big-solutions/clj-nifi "0.1.0-SNAPSHOT"]
-
-                            [big-solutions/boot-nifi "0.1.1-SNAPSHOT" :scope "test"]])
+                            [com.yetanalytics/clj-nifi "0.1.1-SNAPSHOT"]
+                            [com.yetanalytics/boot-nifi "0.1.1-SNAPSHOT" :scope "test"]])
 
 (require '[boot-nifi.core :refer [nar-pom nar download-nifi run-nifi]])
 

@@ -1,5 +1,5 @@
 (def project 'clj-nifi-bundle/boot-template)
-(def version "0.1.1")
+(def version "0.1.2-SNAPSHOT")
 
 (set-env! :resource-paths #{"resources" "src"}
           :dependencies   '[[org.clojure/clojure "RELEASE"]
