@@ -5,8 +5,8 @@ A Boot template for clj-nifi projects.
 ## Yet Instructions
 
 * Clone [clj-nifi](https://github.com/yetanalytics/clj-nifi/tree/yet) and [boot-nifi](https://github.com/yetanalytics/boot-nifi/tree/yet)
-* In each dir, run `boot build` to install
-* Clone this branch, run `boot build` in its dir then proceed with the rest of the instructions.
+* In each dir, make sure you are on the `yet` branch, and run `boot build` to install
+* Clone this, make sure you are on the `yet` branch and run `boot build` in its dir then proceed with the rest of the instructions.
 
 ## Usage
 
