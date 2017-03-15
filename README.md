@@ -8,8 +8,22 @@ A Boot template for clj-nifi projects.
 * In each dir, make sure you are on the `yet` branch, and run `boot build` to install
 * Clone this, make sure you are on the `yet` branch and run `boot build` in its dir then proceed with the rest of the instructions.
 
+
 Once your new project is ready to run, you can make a local nifi install by running:
 `$ boot download-nifi -A <path to nifi zip> -V <nifi version>`
+
+
+## Yet Usage
+
+When running the following for generating a nifi project:
+
+`$ boot -d clj-nifi-bundle/boot-template -d seancorfield/boot-new new -t clj-nifi-bundle -n YOUR-PROJECT-NAME`
+
+Boot actually gets the master branch version of `clj-nifi-bundle/boot-template` which will build the template with the wrong dependencies.
+In order to get around this you need to tell boot to checkout our version of the repo by running the following:
+
+`$ boot -c clj-nifi-bundle/boot-template:0.1.2-SNAPSHOT`
+
 
 ## Usage
 
